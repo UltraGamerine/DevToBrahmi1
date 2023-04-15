@@ -1,6 +1,5 @@
-##### DevToBrahmi1
-##### Devanagari - Brahmi Transliterator
-## Devanagari to Brahmi Transliterator (Converter)
+##### DevToBrahmi1 | The Devanagari - Brahmi Transliterator
+## A Devanagari to Brahmi Transliterator (Converter)
 
 Work in Progress
 
