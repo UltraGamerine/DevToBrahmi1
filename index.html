@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transliterator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Brahmi&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  
+  <h1>Devanagari To Brahmi Transliterator</h1>
+  
+  <textarea id="textInput" rows="10" cols="80"></textarea>
+  
+  
+  <div class="optionsdiv">
+    <label for="mode">Select a mode:</label>
+    <select id="mode">
+    <option value="dev_br">Devanagari to Brahmi</option>
+    <option value="br_dev">Brahmi to Devanagari</option>
+    </select>
+
+    <br>
+
+    <label for="svara">Select a svara option:</label>
+    <select id="svara">
+    <option value="1">Vedic to Vedic</option>
+    <option value="2">Arrow to Vedic</option>
+    <option value="3">No svara / Remove svara</option>
+    </select>
+  </div>
+
+  <br>
+
+  <button onclick="transliterate()">Transliterate</button>
+  
+  <br>
+  
+  <div id="outputDiv1"></div>
+  <div id="outputDiv2"></div>
+
+
+  <script src="script.js"></script>
+  
+
+
+</body>
+</html>
